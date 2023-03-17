@@ -65,4 +65,5 @@ Rails.application.configure do
   # Add docker hostname for connecting from docker containers to host
   # so we can run other components in docker and the API locally
   config.hosts << ".host.docker.internal"
+  config.hosts << "govuk_form_api"
 end
